@@ -1,0 +1,126 @@
+.width-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.width-wrapper h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.filters {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.filters form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-block {
+    margin-inline: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.input-block select {
+    margin: 11px 0;
+    padding: 2px;
+    border: unset;
+    line-height: 1.7;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.input-block input {
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    margin: 5px 0;
+    padding: 2px;
+    line-height: 1.7;
+}
+
+.grid-catalog {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    justify-content: space-around;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.product {
+    min-width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin: 7px;    
+    padding: 7px;
+    transition: all .2s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .2);
+}
+
+.image input {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttons .price {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buttons button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.filters button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

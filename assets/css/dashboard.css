@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.params {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+.params section {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.buttons button {
+    padding: 10px;
+    margin: 3px 0;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.dashboard label {
+    font-size: 100%;
+}
+
+.dashboard input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    font-size: 100%;
+}
+
+.dashboard input[type="color"] {
+    border: none;
+    background: #fff;
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: none;
+    cursor: inherit;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;  
+    border-radius: 50%;
+}
+
+.dashboard textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    width: 380px;
+    height: 100px;
+    resize: none;
+}
+
+.dashboard select {
+    margin: 9px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    line-height: 1.4;
+    font-size: 100%;
+}

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.auth label {
+    font-size: 100%;
+}
+
+.auth input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    font-size: 100%;
+}
+
+.auth button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.auth button:hover {
+    background: #bbbbbb;
+}
+
+.container a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    opacity: 0.6;
+    transition: all .1s ease-in-out;
+}
+  
+.container a:link {
+    color: darkslategray;
+}
+  
+.container a:visited {
+    color: rgb(74, 153, 153);
+}
+
+.container a:hover {
+    opacity: 1;
+}
